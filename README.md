@@ -17,7 +17,7 @@ In the second part of the analysis, it will be addressed the importance of code 
 
        range("A1").Value = "All Stocks (" + yearValue + ")"
 
-Secondly the macro has a timer which shows the time elapsed.  
+Secondly the macro has a timer which shows the execution time elapsed.  
  
         startTime = Timer
 
