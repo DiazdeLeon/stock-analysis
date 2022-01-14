@@ -26,7 +26,7 @@ Secondly the macro has a timer which shows the execution time elapsed.
         MsgBox "This code ran in " & (endTime - startTime) & " seconds for the year " & (yearValue)
 
 
-The following pictures show a comparison of the stock performance between 2017 and 2018, as well as the execution times of the original script and the refactored script.
+The following pictures show a comparison of the stock performance between 2017 and 2018, as well as the execution time elapsed of the original script and the refactored script.
  
  ![image](https://user-images.githubusercontent.com/95872614/149551479-13cc8a9d-400c-494d-bc03-c890ef45c912.png)
 
