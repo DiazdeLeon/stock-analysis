@@ -52,11 +52,11 @@ Following the revision of code refactoring it was possible to see the advantages
 **The disadvantages of refactoring code are:**
  
 - Time consuming, it can take a lot of time to code refactoring and sometimes the deadline for the submission of the code might be tight.  
-- Chance of Mistakes, if he person in charge of the refactoring does not have a clear plan or map of the process it might be possible to get loss in the code itself.  
+- Chance of mistakes, if he person in charge of the refactoring does not have a clear plan or map of the process it might be possible to get loss in the code itself.  
 How do these pros and cons apply to refactoring the original VBA script?
 -	makes programs run faster,
 
-Lessons learned during the challenge was that, while refactoring the code I noticed that I had to: 
+***Lessons learned during the challenge was that, while refactoring the code I noticed that I had to:***
 
 - Move one step at a time. It was necessary to refactor the code as a baby step modifications. The goal was not to affect the product’s functionality.
 - Test. The refactoring process should go hand in hand with tests to make sure the alterations made did not result in new bugs.
