@@ -8,19 +8,19 @@ In the second part of the analysis, it will be addressed the importance of code 
 
  The macro developed has property to choose the analysis year, this means that the user can type the year of analysis as his/her convenience, in this case was 2017 and 2018. 
 
-*yearValue = InputBox("What year would you like to run the analysis on?")*
- 
-*Worksheets("All Stocks Analysis").Activate*
- 
-*range("A1").Value = "All Stocks (" + yearValue + ")"* 
+       *yearValue = InputBox("What year would you like to run the analysis on?")*
+
+       *Worksheets("All Stocks Analysis").Activate*
+
+       *range("A1").Value = "All Stocks (" + yearValue + ")"* 
 
 Secondly the macro has a timer which shows the time elapsed.  
  
-*startTime = Timer*
- 
-*endTime = Timer*
- 
-*MsgBox "This code ran in " & (endTime - startTime) & " seconds for the year " & (yearValue)*
+        *startTime = Timer*
+
+        *endTime = Timer*
+
+        *MsgBox "This code ran in " & (endTime - startTime) & " seconds for the year " & (yearValue)*
 
 
 The following pictures show comparison of the stock performance between 2017 and 2018, as well as the execution times of the original script and the refactored script.
