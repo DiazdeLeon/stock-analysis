@@ -9,7 +9,7 @@ In the second part of the analysis, it will be addressed the importance of code 
 
 # 2.	Results of stock analysis 2018 vs 2017
 
- The macro developed has property to choose the analysis year, this means that the user can type the year at his/her convenience, in this case was 2017 and 2018. 
+ The macro developed has property to choose the analysis year, this means the user can type the year at his/her convenience, in this case was 2017 and 2018. 
 
        yearValue = InputBox("What year would you like to run the analysis on?")
 
