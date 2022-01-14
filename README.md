@@ -4,6 +4,7 @@
 <p align="justify"> The purposes of this analysis can be summarized in two parts, the first one will be the analysis of the entire stock market over 2017 and 2018. It will be presented a macro which will help to the user to review the results of the stocks volumes and returns to support a good market decision. 
  
 As well as the coding of the macro was refactored to optimize the time of process and to make the code more professional.  
+ 
 In the second part of the analysis, it will be addressed the importance of code refactoring. As an introduction, code refactoring is a way of restructuring and optimizing existing code without changing its external behavior. It is a way to improve the code quality. 
 
 # 2.	Results of stock analysis 2018 vs 2017
