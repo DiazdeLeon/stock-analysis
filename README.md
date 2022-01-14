@@ -8,19 +8,19 @@ In the second part of the analysis, it will be addressed the importance of code 
 
  The macro developed has property to choose the analysis year, this means that the user can type the year at his/her convenience, in this case was 2017 and 2018. 
 
-       yearValue = InputBox("What year would you like to run the analysis on?")
+       *yearValue = InputBox("What year would you like to run the analysis on?")*
 
-       Worksheets("All Stocks Analysis").Activate
+       *Worksheets("All Stocks Analysis").Activate*
 
-       range("A1").Value = "All Stocks (" + yearValue + ")"
+       *range("A1").Value = "All Stocks (" + yearValue + ")"*
 
 Secondly the macro has a timer which shows the time elapsed.  
  
-        startTime = Timer
+        *startTime = Timer*
 
-        endTime = Timer
+        *endTime = Timer*
 
-        MsgBox "This code ran in " & (endTime - startTime) & " seconds for the year " & (yearValue)
+        *MsgBox "This code ran in " & (endTime - startTime) & " seconds for the year " & (yearValue)*
 
 
 The following pictures show a comparison of the stock performance between 2017 and 2018, as well as the execution times of the original script and the refactored script.
@@ -56,11 +56,12 @@ Following the revision of code refactoring it was possible to see the advantages
 How do these pros and cons apply to refactoring the original VBA script?
 -	makes programs run faster,
 
-The lessons learned during the challenge was that, while refactoring the code I noticed that I had to: 
+Lessons learned during the challenge was that, while refactoring the code I noticed that I had to: 
 
-Move one step at a time. Never try to do everything at once. It was necessary to refactor the code as a baby step modifications. The goal was not to affect the product’s functionality.
-Test. The refactoring process should go hand in hand with tests to make sure the alterations made did not result in new bugs.
-Refactoring should not add new functionality. I tried to avoid to add any new function to the code. 
+- Move one step at a time. It was necessary to refactor the code as a baby step modifications. The goal was not to affect the product’s functionality.
+- Test. The refactoring process should go hand in hand with tests to make sure the alterations made did not result in new bugs.
+- Avoid to add any new function to the code. 
+ 
 Since my experience on this challenge the main disadvantage is that I got lost. There was a point in which I did not know what I was doing. 
 
 As a conclusion, the main purpose of code refactoring is to make the code clean, neat, more efficient, and maintainable.
