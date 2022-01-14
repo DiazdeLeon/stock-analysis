@@ -35,17 +35,22 @@ In this case refactoring the code is applicable and necessary to fix the bug and
  
 <p align="justify"> Code refactoring helps in removing the complexions and enhancing the reliability of the code. Basically, it is a cycle of continues improvement of the code by different methods to make better. In this case, refactoring the code allowed to fix a bug in the calculations of the daily volume and returns as well as in the reduction of the execution time elapsed. 
 
-The main objectives of code refactoring are:
+*The main objectives of code refactoring are:*
+ 
 -	to enhance the code
 -	to eliminate the so-called code smell 
 -	to reduced complexity for easier understanding. 
 
-Following the revision of code refactoring it was possible to see the advantages or disadvantages of it. The advantages in general might be summarized as it follows:
+Following the revision of code refactoring it was possible to see the advantages or disadvantages of it. 
+ 
+ *The advantages in general might be summarized as it follows:*
+ 
 -	To make the code easier to understand, meaning to keep the code clean and organized. 
 -	To help to find bugs
 -	To remove redundancies and duplications improve the effectiveness of the code
 
-The disadvantages of refactoring code are:
+*The disadvantages of refactoring code are:*
+ 
 - Time consuming, it can take a lot of time to code refactoring and sometimes the deadline for the submission of the code might be tight.  
 - Chance of Mistakes, if he person in charge of the refactoring does not have a clear plan or map of the process it might be possible to get loss in the code itself.  
 How do these pros and cons apply to refactoring the original VBA script?
