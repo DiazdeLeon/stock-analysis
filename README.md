@@ -67,4 +67,4 @@ How do these pros and cons apply to refactoring the original VBA script?
  
 Since my experience on this challenge the main disadvantage is that I got lost. There was a point in which I did not know what I was doing. 
 
-As a conclusion, the main purpose of code refactoring is to make the code clean, neat, more efficient, and maintainable.
+***As a conclusion, the main purpose of code refactoring is to make the code clean, neat, more efficient, and maintainable.***
